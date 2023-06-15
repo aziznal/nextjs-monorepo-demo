@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start:backend": "nx start:dev foo & nx start:dev nest-app"
+    "start:backend": "nx start:dev foo & nx start:dev nest-app",
+    "start:frontend": "nx dev nextjs-app"
   },
   "private": true,
   "devDependencies": {
