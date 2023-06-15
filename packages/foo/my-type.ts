@@ -1,9 +1,9 @@
 export type MyType = {
-    foo: string;
-    bar: number;
-}
+  foo: string;
+  bar: number;
+};
 
 export const MyObj: MyType = {
-    foo: 'aaaa',
-    bar: 5,
-}
+  foo: "hey",
+  bar: 5,
+};

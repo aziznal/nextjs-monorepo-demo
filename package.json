@@ -2,9 +2,10 @@
   "name": "typescript-monorepo",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "start:backend": "nx start:dev foo & nx start:dev nest-app"
+  },
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "nx": "16.3.2"
   },
