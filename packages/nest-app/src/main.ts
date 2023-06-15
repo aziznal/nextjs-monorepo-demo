@@ -1,12 +1,14 @@
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 
-import { MyObj } from 'foo';
+import { Something, SomethingType } from 'my-common-package/dist';
 
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   await app.listen(3000);
 
-  console.log(MyObj);
+  const something: SomethingType = new Something();
+
+  console.log(something.commonThing);
 }
 bootstrap();

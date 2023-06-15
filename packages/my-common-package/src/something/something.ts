@@ -3,5 +3,5 @@ export type SomethingType = {
 }
 
 export class Something implements SomethingType {
-    commonThing: string = 'this is a common thing between the backend and the frontend';
+    commonThing: string = 'this is a common thing between the backend and the frontend. Whoa!';
 }
