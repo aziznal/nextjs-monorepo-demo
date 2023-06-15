@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect } from "react";
-import { Something } from "my-common-package/dist";
+import { Something } from "my-common-package";
 
 export default function Foo() {
   useEffect(() => {

@@ -1,8 +1,8 @@
 {
     "compilerOptions": {
         "moduleResolution": "node",
-        "baseUrl": "src",
-        "outDir": "dist",
+        "baseUrl": "./",
+        "outDir": "./dist",
         "module": "commonjs",
         "lib": ["es6", "dom"],
         "declaration": true,
